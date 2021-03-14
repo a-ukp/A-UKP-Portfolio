@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Assets/CSS/styles.css">
-    <!-- link rel to favicon -->
     <title>AUKP</title>
 </head>
 
@@ -13,33 +12,60 @@
     <header>
         <h1>Anna Uyen K. Phung</h1>
         <nav>
-            <a href="#about-me">About Me</a>
-            <a href="work">Work</a>
-            <a href="#contact-me">Contact Me</a>
-            <a href="#">Resume</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+                <li><a href="https://drive.google.com/file/d/1mCuS_E6wqeoElJ_7FQX1h62eGwNoA94Z/view?usp=sharing" target="_blank">Resume</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <section class="main-section">
+        <section class="main-section" id="about-me">
             <h2>About Me</h2>
-            <p>
-                Hello! My name is Anna.
-            </p>
+            <div>
+                <p>
+                    Hello! My name is Anna. I am a part-time student at Rice Coding Bootcamp. My goal is to learn the skills and abilities to become a Web Developer. In my free time, I like to watch documentaries and play video games.
+                </p>
+            </div>
         </section>
 
-        <section class="main-section">
+        <section class="main-section" id="work">
             <h2>Work</h2>
-        </section>
+            <div class="work-container">
+                <a href="https://github.com/a-ukp/prework-about-me" target="_blank" class="img-box"></a>
+                    <div>
+                        <h3>Prework</h3>
+                    </div>
+                </a>
 
-        <section class="main-section">
-            <h2>Contact Me</h2>
-        </section>
-
-        <section class="main-section">
-            <h2>Resume</h2>
-        </section>
+                <a href="https://scratch.mit.edu/projects/490018153/" target="_blank" class="img-box">
+                    <div>
+                      <h3>Scratch Activity</h3>
+                    </div>
+                </a>
+                
+                <a href="https://github.com/a-ukp/Horiseon-Code-Refractor" target="_blank" class="img-box">
+                  <div>
+                    <h3>Rice Coding Bootcamp HW1</h3>
+                  </div>
+                </a>
     
+              </div>
+        </section>
+
+        <section class="main-section" id="contact">
+            <h2>Contact Me</h2>
+            <div>
+              <address>
+                <a href="tel:+7132775859">713.277.5859</a>
+                <a href="mailto:annakphung@gmail.com">annakphung@gmail.com</a>
+                <a href="https://github.com/a-ukp">GitHub</a>
+              </address>
+            </div>
+          </section>
     </main>
 
 </body>
